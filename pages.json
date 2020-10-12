@@ -1,0 +1,45 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/vote/vote",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/rank/rank",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/contect/index",
+		    "style" : {}
+		},
+		{
+			"path": "pages/index/index"
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "在线投票",
+		"navigationBarBackgroundColor": "#ffffff" 
+	},
+	"tabBar":{
+		"color":"#000000",
+		"selectedColor":"#FF6849",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"#FFFFFF",
+		"position":"top",
+		"list":[
+			{
+				"text":"投票",
+				"pagePath":"pages/vote/vote",
+				"iconPath":"static/icon/vote.png",
+				"selectedIconPath":"static/icon/vote2.png"			
+			},
+			{
+				"text":"排行",
+				"pagePath":"pages/rank/rank",
+				"iconPath":"static/icon/rank.png",
+				"selectedIconPath":"static/icon/rank2.png"			
+			}
+		]
+	}
+}
